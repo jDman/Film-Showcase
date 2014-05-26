@@ -16,37 +16,40 @@ Showcase.Views = Showcase.Views || {};
 
         template: JST['app/scripts/templates/Films.ejs'],
 
-        tagName: 'div',
-
         initialize: function(){
-            this.collection = new Showcase.Collections.Film(films); 
+            this.collection.query = "X-men";
+            this.getFilms();
         },
 
         events: {
-            'click #searchBtn' : 'searchFilms'
+            "click #searchBtn" : "searchFilms"          
         },
 
-        searchFilms: function(event) {
-            console.log(this);
-            var that = this;
-            event && event.preventDefault();
-            that.searchFilm = e.target.value;
-            that.collection.reset();
-            that.collection.query =  $('#search').val();
-
+        getFilms: function(){
+           var that = this;
             that.collection.fetch({
                 dataType: "jsonp",
                 success: function(response){
                     that.render(response);
-                    //console.log(response);
                 },
                 error: function(){console.log('error error error');}
-            });
+            });     
+        },
+
+        searchFilms: function(event) {
+            var that = this;
+            event && event.preventDefault();
+
+            that.collection.reset();
+            that.collection.query =  $('#search').val();
+
+            this.getFilms();
+            console.log("clicked");
         },
 
         render: function () {
             $('#showcase').empty();
-            this.collection.each(
+                this.collection.each(
                 function(film){
                     var filmView = new Showcase.Views.Film({model:film});
                     $('#showcase').append(filmView.el);

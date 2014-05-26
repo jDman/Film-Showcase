@@ -10,7 +10,8 @@ window.Showcase = {
     init: function () {
         'use strict';
         console.log('Hello from Backbone!');
-        
+        var films = new Showcase.Collections.Film();
+        var filmsView = new Showcase.Views.Films({collection: films});
     }
 };
 
@@ -26,7 +27,7 @@ $(document).ready(function () {
     //});
 
     //console.log(films);
-    var filmsView = new Showcase.Views.Films({collection: films});
+    //var filmsView = new Showcase.Views.Films({collection: films});
     //console.log(filmsView.collection);
     //filmView.render();
 });
