@@ -1,0 +1,187 @@
+{
+   "total":3,
+   "movies":[
+      {
+         "id":"9818",
+         "title":"Gone With the Wind",
+         "year":1939,
+         "mpaa_rating":"G",
+         "runtime":222,
+         "critics_consensus":"Filmed and presented on a scale not seen in modern productions, Gone with the Wind is, if not the definitive Hollywood film, then certainly near the top of the list.",
+         "release_dates":{
+            "theater":"1939-12-15",
+            "dvd":"2000-03-07"
+         },
+         "ratings":{
+            "critics_rating":"Certified Fresh",
+            "critics_score":95,
+            "audience_rating":"Upright",
+            "audience_score":93
+         },
+         "synopsis":"",
+         "posters":{
+            "thumbnail":"http://content6.flixster.com/movie/11/16/80/11168092_mob.jpg",
+            "profile":"http://content6.flixster.com/movie/11/16/80/11168092_pro.jpg",
+            "detailed":"http://content6.flixster.com/movie/11/16/80/11168092_det.jpg",
+            "original":"http://content6.flixster.com/movie/11/16/80/11168092_ori.jpg"
+         },
+         "abridged_cast":[
+            {
+               "name":"Clark Gable",
+               "id":"162657893",
+               "characters":[
+                  "Rhett Butler"
+               ]
+            },
+            {
+               "name":"Vivien Leigh",
+               "id":"162657894",
+               "characters":[
+                  "Scarlett O'Hara"
+               ]
+            },
+            {
+               "name":"Leslie Howard",
+               "id":"162658545",
+               "characters":[
+                  "Ashley Wilkes"
+               ]
+            },
+            {
+               "name":"Olivia de Havilland",
+               "id":"162660824",
+               "characters":[
+                  "Melanie Hamilton"
+               ]
+            },
+            {
+               "name":"Hattie McDaniel",
+               "id":"351527605",
+               "characters":[
+                  "Mammy"
+               ]
+            }
+         ],
+         "alternate_ids":{
+            "imdb":"0031381"
+         },
+         "links":{
+            "self":"http://api.rottentomatoes.com/api/public/v1.0/movies/9818.json",
+            "alternate":"http://www.rottentomatoes.com/m/gone_with_the_wind/",
+            "cast":"http://api.rottentomatoes.com/api/public/v1.0/movies/9818/cast.json",
+            "clips":"http://api.rottentomatoes.com/api/public/v1.0/movies/9818/clips.json",
+            "reviews":"http://api.rottentomatoes.com/api/public/v1.0/movies/9818/reviews.json",
+            "similar":"http://api.rottentomatoes.com/api/public/v1.0/movies/9818/similar.json"
+         }
+      },
+      {
+         "id":"770884488",
+         "title":"Making of a Legend: Gone With the Wind",
+         "year":1988,
+         "mpaa_rating":"Unrated",
+         "runtime":124,
+         "release_dates":{
+
+         },
+         "ratings":{
+            "critics_score":-1,
+            "audience_score":88
+         },
+         "synopsis":"",
+         "posters":{
+            "thumbnail":"http://content8.flixster.com/movie/10/95/84/10958494_mob.jpg",
+            "profile":"http://content8.flixster.com/movie/10/95/84/10958494_pro.jpg",
+            "detailed":"http://content8.flixster.com/movie/10/95/84/10958494_det.jpg",
+            "original":"http://content8.flixster.com/movie/10/95/84/10958494_ori.jpg"
+         },
+         "abridged_cast":[
+            {
+               "name":"Christopher Plummer",
+               "id":"162652929"
+            }
+         ],
+         "links":{
+            "self":"http://api.rottentomatoes.com/api/public/v1.0/movies/770884488.json",
+            "alternate":"http://www.rottentomatoes.com/m/making_of_a_legend_gone_with_the_wind/",
+            "cast":"http://api.rottentomatoes.com/api/public/v1.0/movies/770884488/cast.json",
+            "clips":"http://api.rottentomatoes.com/api/public/v1.0/movies/770884488/clips.json",
+            "reviews":"http://api.rottentomatoes.com/api/public/v1.0/movies/770884488/reviews.json",
+            "similar":"http://api.rottentomatoes.com/api/public/v1.0/movies/770884488/similar.json"
+         }
+      },
+      {
+         "id":"771229530",
+         "title":"El viento se llevo lo que (Wind with the Gone)",
+         "year":1998,
+         "mpaa_rating":"PG-13",
+         "runtime":91,
+         "release_dates":{
+            "theater":"1998-10-01"
+         },
+         "ratings":{
+            "critics_score":-1,
+            "audience_rating":"Upright",
+            "audience_score":100
+         },
+         "synopsis":"",
+         "posters":{
+            "thumbnail":"http://images.rottentomatoescdn.com/images/redesign/poster_default.gif",
+            "profile":"http://images.rottentomatoescdn.com/images/redesign/poster_default.gif",
+            "detailed":"http://images.rottentomatoescdn.com/images/redesign/poster_default.gif",
+            "original":"http://images.rottentomatoescdn.com/images/redesign/poster_default.gif"
+         },
+         "abridged_cast":[
+            {
+               "name":"Vera Fogwill",
+               "id":"351526110",
+               "characters":[
+                  "Soledad"
+               ]
+            },
+            {
+               "name":"Angela Molina",
+               "id":"162711234",
+               "characters":[
+                  "Dona Maria"
+               ]
+            },
+            {
+               "name":"Fabian Vena",
+               "id":"770705533",
+               "characters":[
+                  "Pedro"
+               ]
+            },
+            {
+               "name":"Jean Rochefort",
+               "id":"162696883",
+               "characters":[
+                  "Edgar Wexley"
+               ]
+            },
+            {
+               "name":"Ulises Dumont",
+               "id":"335719482",
+               "characters":[
+                  "Antonio"
+               ]
+            }
+         ],
+         "alternate_ids":{
+            "imdb":"0169364"
+         },
+         "links":{
+            "self":"http://api.rottentomatoes.com/api/public/v1.0/movies/771229530.json",
+            "alternate":"http://www.rottentomatoes.com/m/el_viento_se_llevo_lo_que_1999/",
+            "cast":"http://api.rottentomatoes.com/api/public/v1.0/movies/771229530/cast.json",
+            "clips":"http://api.rottentomatoes.com/api/public/v1.0/movies/771229530/clips.json",
+            "reviews":"http://api.rottentomatoes.com/api/public/v1.0/movies/771229530/reviews.json",
+            "similar":"http://api.rottentomatoes.com/api/public/v1.0/movies/771229530/similar.json"
+         }
+      }
+   ],
+   "links":{
+      "self":"http://api.rottentomatoes.com/api/public/v1.0/movies.json?q=Gone+with+the+Wind&page_limit=30&page=1"
+   },
+   "link_template":"http://api.rottentomatoes.com/api/public/v1.0/movies.json?q={search-term}&page_limit={results-per-page}&page={page-number}"
+}
