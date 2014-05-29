@@ -45,13 +45,13 @@ label{
 .arrows{
 	width: 100%;
 	text-align: center;
-	height: 75px;
+	height: 54px;
 	position: absolute;
 	top: 230px;
 	left: 0;
 	font-size: 2em;
 	opacity: .5;
-	background-color: #d4d4d4; 
+	background-color: #d4d4d4;
 }
 .arrows span{
 	display: block;
@@ -531,6 +531,7 @@ label{
 
 .glyphicon-chevron-up:before {
   content: "\e113";
+  margin-left: 2px;
 }
 
 .glyphicon-chevron-down:before {
