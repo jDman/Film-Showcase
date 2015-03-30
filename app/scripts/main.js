@@ -9,7 +9,6 @@ window.Showcase = {
     Key: 'ba9r7bufe3ran2pngngk7xb5',
     init: function () {
         'use strict';
-        console.log('Hello from Backbone!');
         var films = new Showcase.Collections.Film();
         var filmsView = new Showcase.Views.Films({collection: films});
     }
